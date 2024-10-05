@@ -1,4 +1,4 @@
-# Chaining Dashboard
+# API Chaining Dashboard
 
 ## Overview
 
