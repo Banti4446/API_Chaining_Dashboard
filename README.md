@@ -2,7 +2,7 @@
 
 ## Overview
 
-The ** API Chaining Dashboard** is a responsive web application designed to demonstrate complex API interactions, including both GET and POST requests. The dashboard allows users to create workflows that chain multiple API calls, where the response from one API is utilized in subsequent API requests. This project showcases proficiency in asynchronous operations, state management, data transformation, and handling different HTTP methods using React.js and Tailwind CSS.
+The API Chaining Dashboard is a responsive web application designed to demonstrate complex API interactions, including both GET and POST requests. The dashboard allows users to create workflows that chain multiple API calls, where the response from one API is utilized in subsequent API requests. This project showcases proficiency in asynchronous operations, state management, data transformation, and handling different HTTP methods using React.js and Tailwind CSS.
 
 ![Demo Screenshot] 
 
