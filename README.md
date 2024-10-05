@@ -44,3 +44,4 @@ Follow these steps to set up and run the project locally.
    ```bash
    git clone https://github.com/yourusername/chaining-dashboard.git
    cd chaining-dashboard
+   npm start
