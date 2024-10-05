@@ -4,11 +4,10 @@
 
 The **Chaining Dashboard** is a responsive web application designed to demonstrate complex API interactions, including both GET and POST requests. The dashboard allows users to create workflows that chain multiple API calls, where the response from one API is utilized in subsequent API requests. This project showcases proficiency in asynchronous operations, state management, data transformation, and handling different HTTP methods using React.js and Tailwind CSS.
 
-![Demo Screenshot](link-to-screenshot.png)
+![Demo Screenshot] 
 
-## Demo
+![{4D4FC6F9-0E68-4C4A-95BE-CFA014171F6C}](https://github.com/user-attachments/assets/9e95de8d-1ba6-4f4a-b327-d38389e61467)
 
-[Watch the Demo](https://drive.google.com/file/d/1ZGovi3gp35Av0CJRoJbENb_62Szk_mP9/view?usp=drive_link)
 
 ## Features
 
