@@ -1,76 +1,46 @@
-# Getting Started with Create React App
+# API Chaining Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The **Chaining Dashboard** is a responsive web application designed to demonstrate complex API interactions, including both GET and POST requests. The dashboard allows users to create workflows that chain multiple API calls, where the response from one API is utilized in subsequent API requests. This project showcases proficiency in asynchronous operations, state management, data transformation, and handling different HTTP methods using React.js and Tailwind CSS.
 
-In the project directory, you can run:
+![Demo Screenshot](link-to-screenshot.png)
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Watch the Demo](https://drive.google.com/file/d/1ZGovi3gp35Av0CJRoJbENb_62Szk_mP9/view?usp=drive_link)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Visual Workflow Builder:** Users can create and manage API workflows by selecting APIs, mapping response fields to request parameters, and transforming data as needed.
+- **API Integration:** Seamless integration with mock APIs for fetching users, creating posts, and retrieving comments.
+- **Responsive Design:** Fully responsive UI built with Tailwind CSS, ensuring optimal performance across devices.
+- **State Management:** Efficient state handling using React's `useState` and `useEffect` hooks.
+- **Error Handling:** Robust error handling and loading states to enhance user experience.
+- **Data Flow Visualization:** Clear visual representation of data flow between chained APIs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technical Stack
 
-### `npm run build`
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **API Handling:** Axios
+- **Version Control:** Git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to set up and run the project locally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Prerequisites**
 
-### `npm run eject`
+- **Node.js** (v14 or higher): [Download Node.js](https://nodejs.org/)
+- **npm** (comes with Node.js)
+- **Git**: [Download Git](https://git-scm.com/downloads)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Installation**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the Repository**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
-
-
+   ```bash
+   git clone https://github.com/yourusername/chaining-dashboard.git
+   cd chaining-dashboard
