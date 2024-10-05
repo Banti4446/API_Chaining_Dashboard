@@ -44,3 +44,8 @@ Follow these steps to set up and run the project locally.
    git clone https://github.com/yourusername/chaining-dashboard.git
    cd api-chaining-dashboard
    npm start
+
+   ou can now view api-chaining-dashboard in the browser.
+
+  Local:            http://localhost:3007
+  On Your Network:  http://192.168.0.103:3007
